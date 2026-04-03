@@ -27,11 +27,11 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp ESC     &mt EXCLAMATION Q  &mt AT W   &mt HASH E  &mt DOLLAR R  &mt PERCENT T      &mt CARET Y  &mt AMPERSAND U  &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P  &kp BACKSPACE
-&lt BT TAB  &kp A              &kp S      &kp D       &kp F         &kp G              &kp H        &kp J            &kp K           &kp L                   &mt MINUS SEMICOLON      &mt UNDERSCORE SQT
-&kp LSHFT   &kp Z              &kp X      &kp C       &kp V         &kp B              &kp N        &kp M            &kp COMMA       &kp DOT                 &kp UP                   &kp FSLH
-&kp LCTRL   &kp LGUI           &kp LALT               &lt 1 INT5    &lt 2 SPACE        &lt 3 ENTER  &lt 4 INT4                       &kp LEFT                &kp DOWN                 &kp RIGHT
-&kp LEFT    &kp UP             &kp SPACE  &kp DOWN    &kp RIGHT                                     &kp HOME         &kp PG_UP       &kp ENTER               &kp PG_DN                &kp END
+&kp ESC     &mt EXCLAMATION Q  &mt AT W   &mt HASH E  &mt DOLLAR R  &mt PERCENT T      &mt CARET Y  &mt AMPERSAND U  &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P   &kp BACKSPACE
+&lt BT TAB  &kp A              &kp S      &kp D       &kp F         &kp G              &kp H        &kp J            &kp K           &kp L                   &mt UNDERSCORE SEMICOLON  &kp SQT
+&kp LSHFT   &kp Z              &kp X      &kp C       &kp V         &kp B              &kp N        &kp M            &kp COMMA       &kp DOT                 &kp UP                    &kp FSLH
+&kp LCTRL   &kp LGUI           &kp LALT               &lt 1 INT5    &lt 2 SPACE        &lt 3 ENTER  &lt 4 INT4                       &kp LEFT                &kp DOWN                  &kp RIGHT
+&kp LEFT    &kp UP             &kp SPACE  &kp DOWN    &kp RIGHT                                     &kp HOME         &kp PG_UP       &kp ENTER               &kp PG_DN                 &kp END
                                           &kp A                                                                      &kp B
             >;
 
