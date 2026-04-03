@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - {t: SEMICOLON, h: MINUS}
-  - {t: SQT, h: UNDERSCORE}
+  - {t: SEMICOLON, h: UNDERSCORE}
+  - SQT
   - LSHFT
   - Z
   - X
