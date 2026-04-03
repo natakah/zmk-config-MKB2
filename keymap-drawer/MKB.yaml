@@ -2,17 +2,17 @@ layout: {zmk_keyboard: MKB}
 layers:
   Def:
   - ESC
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
+  - {t: Q, h: '!'}
+  - {t: W, h: AT}
+  - {t: E, h: HASH}
+  - {t: R, h: DOLLAR}
+  - {t: T, h: PERCENT}
+  - {t: Y, h: CARET}
+  - {t: U, h: AMPERSAND}
+  - {t: I, h: ASTERISK}
+  - {t: O, h: LEFT PARENTHESIS}
+  - {t: P, h: RIGHT PARENTHESIS}
+  - BACKSPACE
   - {t: TAB, h: BT}
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - SEMI
-  - {t: SQT, h: Mouse}
+  - {t: SEMICOLON, h: MINUS}
+  - {t: SQT, h: UNDERSCORE}
   - LSHFT
   - Z
   - X
@@ -37,13 +37,13 @@ layers:
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: LCTL}
+  - LCTRL
   - LGUI
   - LALT
+  - {t: INT5, h: Fnc}
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - {t: ENTER, h: Mouse}
+  - {t: INT4, h: Scr}
   - LEFT
   - DOWN
   - RIGHT
@@ -99,8 +99,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
-  - ENTER
   - {t: ENTER, type: held}
+  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -119,49 +119,49 @@ layers:
   - A
   - B
   Num:
-  - CAPS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - ESC
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - MINUS
   - EQUAL
-  - LBKT
-  - RBKT
-  - BSLH
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: LSHFT}
   - BACKSPACE
-  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
+  - {t: TAB, h: toggle}
+  - '4'
+  - '5'
+  - '6'
+  - MINUS
+  - SLASH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - PLUS
+  - ASTERISK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - COMMA
+  - LESS THAN
+  - GREATER THAN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - PERIOD
+  - INT4
   - {t: ENTER, type: held}
   - ENTER
-  - ENTER
-  - ENTER
+  - INT5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -201,25 +201,25 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -279,7 +279,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
