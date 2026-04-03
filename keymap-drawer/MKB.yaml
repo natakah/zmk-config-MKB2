@@ -72,7 +72,7 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - '&tog_ls'
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
@@ -85,7 +85,7 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BKSP
+  - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
