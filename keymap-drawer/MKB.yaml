@@ -40,10 +40,10 @@ layers:
   - LCTRL
   - LGUI
   - LALT
-  - {t: INT5, h: Fnc}
-  - {t: SPACE, h: Num}
-  - {t: ENTER, h: Mouse}
-  - {t: INT4, h: Scr}
+  - {t: INT5, h: Scr}
+  - {t: SPACE, h: Mouse}
+  - {t: ENTER, h: Num}
+  - {t: INT4, h: Fnc}
   - LEFT
   - DOWN
   - RIGHT
@@ -99,10 +99,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
+  - ENTER
+  - ENTER
+  - ENTER
   - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,8 +159,8 @@ layers:
   - '0'
   - PERIOD
   - INT4
-  - {t: ENTER, type: held}
   - ENTER
+  - {t: ENTER, type: held}
   - INT5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,8 +218,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -276,10 +276,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
