@@ -245,7 +245,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(924, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">SQT</text>
+<text x="0" y="0" class="key tap">APOS</text>
+<text x="0" y="24" class="key hold">MINUS</text>
 </g>
 <g transform="translate(28, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -293,7 +294,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(924, 140)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">FSLH</text>
+<text x="0" y="0" class="key tap">ENTER</text>
+<text x="0" y="24" class="key hold">FSLH</text>
 </g>
 <g transform="translate(28, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -321,7 +323,7 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 <g transform="translate(602, 210)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ENTER</text>
+<text x="0" y="0" class="key tap">SPACE</text>
 <a href="#Num">
 <text x="0" y="24" class="key hold layer-activator">Num</text>
 </a></g>
@@ -424,9 +426,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">HOME</text>
 </g>
-<g transform="translate(308, 28)" class="key trans keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(308, 28)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
 </g>
 <g transform="translate(644, 28)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

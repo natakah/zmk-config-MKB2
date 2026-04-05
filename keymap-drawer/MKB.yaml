@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - {t: SEMICOLON, h: UNDERSCORE}
-  - SQT
+  - {t: APOS, h: MINUS}
   - LSHFT
   - Z
   - X
@@ -36,13 +36,13 @@ layers:
   - COMMA
   - DOT
   - UP
-  - FSLH
+  - {t: ENTER, h: FSLH}
   - LCTRL
   - LGUI
   - LALT
   - {t: INT5, h: Scr}
   - {t: SPACE, h: Mouse}
-  - {t: ENTER, h: Num}
+  - {t: SPACE, h: Num}
   - {t: INT4, h: Fnc}
   - LEFT
   - DOWN
@@ -65,7 +65,7 @@ layers:
   - UP
   - PG DN
   - HOME
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - F1
   - F2
   - F3
