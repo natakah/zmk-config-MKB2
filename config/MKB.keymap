@@ -28,25 +28,25 @@
             label = "Def";
             bindings = <
 &kp ESC    &mt EXCLAMATION Q  &mt AT W   &mt HASH E  &mt DOLLAR R  &mt PERCENT T      &mt CARET Y  &mt AMPERSAND U  &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P   &kp BACKSPACE
-&lt 5 TAB  &kp A              &kp S      &kp D       &kp F         &kp G              &kp H        &kp J            &kp K           &kp L                   &mt UNDERSCORE SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z              &kp X      &kp C       &kp V         &kp B              &kp N        &kp M            &kp COMMA       &kp DOT                 &kp UP                    &kp FSLH
-&kp LCTRL  &kp LGUI           &kp LALT               &lt 4 INT5    &lt 3 SPACE        &lt 2 ENTER  &lt 1 INT4                       &kp LEFT                &kp DOWN                  &kp RIGHT
+&lt 5 TAB  &kp A              &kp S      &kp D       &kp F         &kp G              &kp H        &kp J            &kp K           &kp L                   &mt UNDERSCORE SEMICOLON  &mt MINUS APOS
+&kp LSHFT  &kp Z              &kp X      &kp C       &kp V         &kp B              &kp N        &kp M            &kp COMMA       &kp DOT                 &kp UP                    &mt FSLH ENTER
+&kp LCTRL  &kp LGUI           &kp LALT               &lt 4 INT5    &lt 3 SPACE        &lt 2 SPACE  &lt 1 INT4                       &kp LEFT                &kp DOWN                  &kp RIGHT
 &kp LEFT   &kp UP             &kp SPACE  &kp DOWN    &kp RIGHT                                     &kp HOME         &kp PG_UP       &kp ENTER               &kp PG_DN                 &kp END
                                          &kp A                                                                      &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP LS(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         function_layer {
             label = "Fnc";
             bindings = <
-&kp GRAVE  &kp PG_UP  &kp UP     &kp PG_DN  &kp HOME   &trans         &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &trans
-&trans     &kp LEFT   &kp DOWN   &kp RIGHT  &kp END    &trans         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &trans
-&trans     &trans     &kp DEL    &trans     &trans     &trans         &kp F11    &kp F12    &trans     &trans     &trans     &trans
-&trans     &trans     &kp LALT              &kp ENTER  &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT   &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                 &kp A                                                      &kp B
+&kp GRAVE  &kp PG_UP  &kp UP     &kp PG_DN  &kp HOME   &kp PRINTSCREEN      &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &trans
+&trans     &kp LEFT   &kp DOWN   &kp RIGHT  &kp END    &trans               &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &trans
+&trans     &trans     &kp DEL    &trans     &trans     &trans               &kp F11    &kp F12    &trans     &trans     &trans     &trans
+&trans     &trans     &kp LALT              &kp ENTER  &kp ENTER            &kp ENTER  &kp ENTER             &trans     &trans     &trans
+&kp LEFT   &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                                  &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                 &kp A                                                            &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
