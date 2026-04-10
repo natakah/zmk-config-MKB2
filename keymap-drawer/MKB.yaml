@@ -40,10 +40,10 @@ layers:
   - LCTRL
   - LGUI
   - LALT
-  - {t: LANGUAGE 2, h: Scr}
+  - {t: LANG HANGEUL, h: Scr}
   - {t: SPACE, h: Mouse}
   - {t: SPACE, h: Num}
-  - {t: LANGUAGE 2, h: Fnc}
+  - {t: LANG HANJA, h: Fnc}
   - LEFT
   - DOWN
   - RIGHT
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - PERIOD
-  - LANG1
+  - LANG HANGEUL
   - ENTER
   - {t: ENTER, type: held}
-  - LANG2
+  - LANG HANJA
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
